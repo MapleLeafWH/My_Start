@@ -1,6 +1,6 @@
 // let todoList = [];
 // let doneList = [];
-let beiWang = "";
+let beiWang;
 let todoInner;
 
 window.onload = function () {

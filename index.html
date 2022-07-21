@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_Start</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <!-- 备忘录 -->
+    <div class="beiwan_box flex column">
+      <h1 style="color: purple">备忘录</h1>
+      <textarea name="jilu" id="beiwang" cols="30" rows="10"> </textarea>
+    </div>
+
+    <div class="list_box flex column">
+      <!-- 输入框与添加按钮 -->
+      <div class="input_box flex row">
+        <!-- 任务添加框 -->
+        <input id="input" type="text" placeholder="" />
+        <!-- 添加按钮 -->
+        <button id="button" class="button">添加</button>
+      </div>
+
+      <!-- 待办事项 -->
+      <div class="todo_box">
+        <ul id="todo" class="flex column">
+          <p>待完成：</p>
+        </ul>
+      </div>
+
+      <!-- 已完成事项 -->
+      <!-- <div class="donetodo_box">
+        <ul id="donetodo" class="flex column">
+          <p>已完成：</p>
+          <li><p>测试</p></li>
+        </ul>
+      </div> -->
+    </div>
+  </body>
+</html>

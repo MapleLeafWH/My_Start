@@ -28,7 +28,23 @@ body {
   align-items: center;
   background-image: linear-gradient(135deg, #091e3a, #2f80ed, #2d9ee0);
 }
-
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  .beiwan_box {
+    min-width: 50vh;
+    min-height: 20vh;
+  }
+  .list_box {
+    min-width: 20vh;
+    min-height: 40vh;
+  }
+  .input_box {
+    width: 100%;
+    min-height: 10vh;
+    flex-direction: column;
+  }
 .beiwan_box {
   width: 50%;
   height: 60vh;
